@@ -168,12 +168,7 @@
             "1": {
               "title": "Ivan's Q&A",
               "id": 38,
-              "ideas": {
-                "1": {
-                  "title": "some extra point",
-                  "id": 41
-                }
-              }
+              "ideas": {}
             }
           }
         }
@@ -189,5 +184,6 @@
         }
       }
     }
-  }
+  },
+  "links": []
 }
