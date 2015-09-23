@@ -1,0 +1,193 @@
+{
+  "title": "Blog",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "why use a NS cache?",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Traditionally, to hold the data near where it is going to be used/computed (due to slowness of the storage layer)",
+          "id": 6
+        },
+        "2": {
+          "title": "We've noted that with a move to key-based nosql/document store systems that horizontally scale and noted this has made the nearside cache redundant...However even at scale, the nosql systems can experience hotspotting, and restructuring large amounts of data should be avoided",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "even with the capability of cassandra to scale out with a token aware connector the physical server cost would necessitate a near caching solution",
+              "id": 8
+            },
+            "2": {
+              "title": "we benchmarked 3 nosql dbs to see how latency was affected by concurrency",
+              "id": 12,
+              "ideas": {
+                "1": {
+                  "title": "then demonstrated how a cache could dramatically improve read performance",
+                  "id": 13,
+                  "ideas": {
+                    "1": {
+                      "title": "where (use cases)",
+                      "id": 14,
+                      "ideas": {
+                        "1": {
+                          "title": "GRID/compute eg market dataset",
+                          "id": 15,
+                          "attr": {
+                            "position": [
+                              99,
+                              80.5,
+                              1
+                            ],
+                            "style": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "market offerings",
+          "id": 16,
+          "ideas": {
+            "1": {
+              "title": "hazelcast",
+              "id": 17
+            },
+            "2": {
+              "title": "gridgain",
+              "id": 18
+            },
+            "3": {
+              "title": "ehcache",
+              "id": 19,
+              "ideas": {
+                "1": {
+                  "title": "not distributed??",
+                  "id": 28
+                }
+              }
+            },
+            "4": {
+              "title": "mache",
+              "id": 20,
+              "ideas": {
+                "1": {
+                  "title": "why another ? ",
+                  "id": 21,
+                  "attr": {
+                    "position": [
+                      140,
+                      -55,
+                      1
+                    ],
+                    "style": {}
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "team innovation for excelian. ",
+                      "id": 22
+                    },
+                    "2": {
+                      "title": "keep it simple and lightweight based on google guava.",
+                      "id": 23
+                    },
+                    "3": {
+                      "title": "no other cache supports write/read through with nosql",
+                      "id": 24,
+                      "ideas": {
+                        "1": {
+                          "title": "nosql agnostic",
+                          "id": 25,
+                          "ideas": {
+                            "1": {
+                              "title": "enables organisation to leverage existing nosql technology",
+                              "id": 26
+                            },
+                            "2": {
+                              "title": "organisation can change storage provider. pluggable api",
+                              "id": 27
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "4": {
+                      "title": "Strategically aligned to  the organisation's data storage approach",
+                      "id": 37
+                    }
+                  }
+                }
+              }
+            },
+            "5": {
+              "title": "infinispan",
+              "id": 29
+            },
+            "6": {
+              "title": "memcached",
+              "id": 30
+            },
+            "7": {
+              "title": "Gemfire",
+              "id": 40
+            }
+          }
+        },
+        "4": {
+          "title": "In our experience...our FS customers solve Compute bound problems traditionally solved either with a (i) Distributed Cache (ii) Data Grid. E.g. Gemfire and Coherence - Mache makes it cheap/free",
+          "id": 39
+        }
+      }
+    },
+    "2": {
+      "title": "What does it do?",
+      "id": 31,
+      "ideas": {
+        "1": {
+          "title": "Eventing",
+          "id": 32
+        },
+        "2": {
+          "title": "eviction?",
+          "id": 33
+        },
+        "3": {
+          "title": "Different supported NOSQL platforms",
+          "id": 34
+        },
+        "4": {
+          "title": "How well does it perform?",
+          "id": 36,
+          "ideas": {
+            "1": {
+              "title": "Ivan's Q&A",
+              "id": 38,
+              "ideas": {
+                "1": {
+                  "title": "some extra point",
+                  "id": 41
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "what's the use case?",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "financial services, trades data?....tick/price data....For Mifid, have to store prices and price calculations, therefore could have a near side that just represents today's data, but have the rest in a data lake",
+          "id": 10
+        }
+      }
+    }
+  }
+}
