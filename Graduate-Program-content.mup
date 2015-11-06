@@ -1,0 +1,216 @@
+{
+  "title": "Graduate Program",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "dev practices",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "TDD/BDD",
+          "id": 16,
+          "ideas": {
+            "1": {
+              "title": "Mocking",
+              "id": 46
+            },
+            "2": {
+              "title": "Extracting user stories",
+              "id": 45,
+              "attr": {
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "Refactoring",
+              "id": 47
+            },
+            "4": {
+              "title": "Legacy code transformations",
+              "id": 48
+            }
+          }
+        },
+        "2": {
+          "title": "CI",
+          "id": 14,
+          "attr": {
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "Know Thy IDE",
+          "id": 11,
+          "attr": {
+            "style": {}
+          }
+        },
+        "4": {
+          "title": "Source Control",
+          "id": 10,
+          "attr": {
+            "style": {}
+          }
+        },
+        "5": {
+          "title": "Gradle/Maven/Ant",
+          "id": 15,
+          "attr": {
+            "style": {}
+          }
+        },
+        "6": {
+          "title": "Integration testing",
+          "id": 17
+        },
+        "7": {
+          "title": "Pairing",
+          "id": 43,
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "Who to Follow/read about",
+      "id": 18,
+      "ideas": {
+        "1": {
+          "title": "Martin Fowler",
+          "id": 19
+        },
+        "2": {
+          "title": "Sandro Mancuso",
+          "id": 20
+        },
+        "3": {
+          "title": "Dan North",
+          "id": 21
+        },
+        "4": {
+          "title": "Coding Horror",
+          "id": 22
+        },
+        "5": {
+          "title": "Joel Spolsky",
+          "id": 23
+        },
+        "6": {
+          "title": "Why community is important",
+          "id": 24
+        }
+      }
+    },
+    "-1": {
+      "title": "coding & design",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Clean code",
+          "id": 6
+        },
+        "2": {
+          "title": "SOLID",
+          "id": 7
+        },
+        "3": {
+          "title": "Hibernate/Spring",
+          "id": 8
+        },
+        "4": {
+          "title": "Design Patterns",
+          "id": 9
+        },
+        "8": {
+          "title": "Unix Scripting",
+          "id": 13
+        },
+        "9": {
+          "title": "Technical debt",
+          "id": 50
+        },
+        "10": {
+          "title": "Debugging",
+          "id": 51,
+          "ideas": {}
+        },
+        "11": {
+          "title": "Common gotchas/puzzlers",
+          "id": 53
+        },
+        "12": {
+          "title": "performance analysis",
+          "id": 55
+        },
+        "13": {
+          "title": "databases/SQL",
+          "id": 56
+        }
+      }
+    },
+    "-2": {
+      "title": "Excelian's streams",
+      "id": 25,
+      "ideas": {
+        "1": {
+          "title": "NoSQL",
+          "id": 28,
+          "ideas": {
+            "1": {
+              "title": "Who are the main players?",
+              "id": 40,
+              "ideas": {
+                "1": {
+                  "title": "What are the differences?",
+                  "id": 41,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "Mache",
+              "id": 42
+            }
+          }
+        },
+        "2": {
+          "title": "UI/UX",
+          "id": 29,
+          "ideas": {
+            "1": {
+              "title": "Node",
+              "id": 37
+            },
+            "2": {
+              "title": "Famo.us",
+              "id": 38
+            },
+            "3": {
+              "title": "Dashboard",
+              "id": 39
+            }
+          }
+        },
+        "3": {
+          "title": "Cloud",
+          "id": 30,
+          "ideas": {
+            "1": {
+              "title": "Docker",
+              "id": 34
+            },
+            "2": {
+              "title": "BluePrint",
+              "id": 35
+            }
+          }
+        }
+      }
+    }
+  },
+  "links": []
+}
