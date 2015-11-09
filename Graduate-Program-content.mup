@@ -97,9 +97,12 @@
           "title": "Joel Spolsky",
           "id": 23
         },
-        "6": {
+        "0.5": {
           "title": "Why community is important",
-          "id": 24
+          "id": 24,
+          "attr": {
+            "style": {}
+          }
         }
       }
     },
