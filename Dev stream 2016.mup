@@ -13,39 +13,70 @@
           "ideas": {
             "1": {
               "title": "Going to tech talks",
-              "id": 22
-            },
-            "2": {
-              "title": "Field trips!",
-              "id": 23
-            },
-            "3": {
-              "title": "People coming in to speak to us",
-              "id": 24
-            },
-            "4": {
-              "title": "Short (up to 10 mins) tech talks on tech subjects (new tools, technologies)",
-              "id": 25
+              "id": 22,
+              "ideas": {
+                "1": {
+                  "title": "Field trips!",
+                  "id": 23,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "People coming in to speak to us",
+                  "id": 24,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "3": {
+                  "title": "Short (up to 10 mins) tech talks on tech subjects (new tools, technologies)",
+                  "id": 25,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
             },
             "5": {
               "title": "More lightning talks / roster?",
-              "id": 26
+              "id": 26,
+              "ideas": {
+                "1": {
+                  "title": "More lightning talks",
+                  "id": 27,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "More lightning talks",
+                  "id": 30,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
             },
-            "6": {
-              "title": "More lightning talks",
-              "id": 27
-            },
-            "7": {
-              "title": "More brown bag sessions",
-              "id": 28
-            },
-            "8": {
-              "title": "More exotic tech but just a brief into to it (lightning talks)",
-              "id": 29
-            },
-            "6.5": {
-              "title": "More lightning talks",
-              "id": 30
+            "9": {
+              "title": "More talks in general",
+              "id": 67,
+              "ideas": {
+                "1": {
+                  "title": "More brown bag sessions",
+                  "id": 28,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "More exotic tech but just a brief into to it (lightning talks)",
+                  "id": 29,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
             }
           }
         },
@@ -68,6 +99,10 @@
             "4": {
               "title": "More Slack",
               "id": 21
+            },
+            "5": {
+              "title": "Study groups?",
+              "id": 68
             }
           }
         },
@@ -75,41 +110,32 @@
           "title": "Pairing",
           "id": 8,
           "ideas": {
-            "1": {
-              "title": "Pair programming sessions",
-              "id": 31
-            },
-            "2": {
-              "title": "Pair programming",
-              "id": 32
-            },
-            "3": {
-              "title": "More coding tasks + pair code review",
-              "id": 33
-            },
-            "4": {
-              "title": "More pairing",
-              "id": 34
-            },
             "5": {
               "title": "Mob programming",
               "id": 35
             },
-            "6": {
-              "title": "Pair programming",
-              "id": 36
-            },
-            "7": {
-              "title": "Funs small projects like programming a robot not necessarily work aligned, but thought it would be interesting",
-              "id": 37
-            },
             "8": {
               "title": "small in-session/meeting pair programming tasks",
-              "id": 38
+              "id": 38,
+              "ideas": {
+                "1": {
+                  "title": "Funs small projects like programming a robot not necessarily work aligned, but thought it would be interesting",
+                  "id": 37,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
             },
             "9": {
               "title": "Involvement in open source projects",
-              "id": 39
+              "id": 39,
+              "ideas": {
+                "1": {
+                  "title": "Something like mache",
+                  "id": 69
+                }
+              }
             },
             "10": {
               "title": "More group stuff",
@@ -136,12 +162,58 @@
                 "1": {
                   "title": "Something with blockchain? (something simple)",
                   "id": 50
+                },
+                "2": {
+                  "title": "More ideas on stuff to build",
+                  "id": 70
                 }
               }
             },
             "14": {
               "title": "People to bring more code",
               "id": 56
+            },
+            "6.5": {
+              "title": "More pairing",
+              "id": 34,
+              "attr": {
+                "style": {},
+                "position": [
+                  228.5,
+                  -299.5,
+                  1
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "Pair programming",
+                  "id": 36,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "More coding tasks + pair code review",
+                  "id": 33,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "3": {
+                  "title": "Pair programming",
+                  "id": 32,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "4": {
+                  "title": "Pair programming sessions",
+                  "id": 31,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
             }
           }
         }
@@ -153,7 +225,65 @@
       "ideas": {
         "1": {
           "title": "Functional",
-          "id": 9
+          "id": 9,
+          "ideas": {
+            "1": {
+              "title": "Python",
+              "id": 57
+            },
+            "2": {
+              "title": "ML",
+              "id": 58
+            },
+            "3": {
+              "title": "Introduce Webinar series",
+              "id": 59
+            },
+            "4": {
+              "title": "Scala",
+              "id": 60
+            },
+            "5": {
+              "title": "Javascript",
+              "id": 61
+            },
+            "9": {
+              "title": "Functional programming languages",
+              "id": 65,
+              "attr": {
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "Functional programming",
+                  "id": 62,
+                  "ideas": {},
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "Functional programming",
+                  "id": 64,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "3": {
+                  "title": "Functional programming Vs. Object oriented ",
+                  "id": 63,
+                  "attr": {
+                    "style": {}
+                  },
+                  "ideas": {}
+                }
+              }
+            },
+            "10": {
+              "title": "New languages",
+              "id": 66
+            }
+          }
         },
         "2": {
           "title": "Big Data",
@@ -184,6 +314,10 @@
             "3": {
               "title": "Domain driven design",
               "id": 49
+            },
+            "4": {
+              "title": "How to best implement design patterns (i.e. good design)",
+              "id": 76
             }
           }
         },
@@ -202,6 +336,16 @@
             "3": {
               "title": "Low latency",
               "id": 55
+            }
+          }
+        },
+        "5": {
+          "title": "Different technologies ",
+          "id": 72,
+          "ideas": {
+            "1": {
+              "title": "Different tech stacks",
+              "id": 73
             }
           }
         }
@@ -230,5 +374,6 @@
         }
       }
     }
-  }
+  },
+  "links": []
 }
