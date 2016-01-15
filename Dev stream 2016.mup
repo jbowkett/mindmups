@@ -1,0 +1,126 @@
+{
+  "title": "Dev stream 2016",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "More please!",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Lightning Talks",
+          "id": 6,
+          "ideas": {
+            "1": {
+              "title": "Going to tech talks",
+              "id": 22
+            },
+            "2": {
+              "title": "Field trips!",
+              "id": 23
+            },
+            "3": {
+              "title": "People coming in to speak to us",
+              "id": 24
+            },
+            "4": {
+              "title": "Short (up to 10 mins) tech talks on tech subjects (new tools, technologies)",
+              "id": 25
+            },
+            "5": {
+              "title": "More lightning talks / roster?",
+              "id": 26
+            },
+            "6": {
+              "title": "More lightning talks",
+              "id": 27
+            },
+            "7": {
+              "title": "More brown bag sessions",
+              "id": 28
+            },
+            "8": {
+              "title": "More exotic tech but just a brief into to it (lightning talks)",
+              "id": 29
+            },
+            "6.5": {
+              "title": "More lightning talks",
+              "id": 30
+            }
+          }
+        },
+        "2": {
+          "title": "Bookclub/community",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "more bookclub",
+              "id": 18
+            },
+            "2": {
+              "title": "More bookclub",
+              "id": 19
+            },
+            "3": {
+              "title": "More bookclub",
+              "id": 20
+            },
+            "4": {
+              "title": "More Slack",
+              "id": 21
+            }
+          }
+        },
+        "3": {
+          "title": "Pairing",
+          "id": 8
+        }
+      }
+    },
+    "2": {
+      "title": "Topics",
+      "id": 5,
+      "ideas": {
+        "1": {
+          "title": "Functional",
+          "id": 9
+        },
+        "2": {
+          "title": "Big Data",
+          "id": 10
+        },
+        "3": {
+          "title": "Quality",
+          "id": 11
+        },
+        "4": {
+          "title": "Performance",
+          "id": 12
+        }
+      }
+    },
+    "-1": {
+      "title": "Less Please!",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Less reading books, more reading particular topics - across different media",
+          "id": 13,
+          "ideas": {}
+        },
+        "2": {
+          "title": "Less long presentations, i.e. keep them less than 10 minutes",
+          "id": 15
+        },
+        "3": {
+          "title": "Less large groups",
+          "id": 16
+        },
+        "4": {
+          "title": "We should review books slower but in detail (i.e. discuss every question at the next meeting, only a few questions per meeting)",
+          "id": 17
+        }
+      }
+    }
+  }
+}
