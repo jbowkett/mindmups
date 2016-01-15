@@ -73,7 +73,77 @@
         },
         "3": {
           "title": "Pairing",
-          "id": 8
+          "id": 8,
+          "ideas": {
+            "1": {
+              "title": "Pair programming sessions",
+              "id": 31
+            },
+            "2": {
+              "title": "Pair programming",
+              "id": 32
+            },
+            "3": {
+              "title": "More coding tasks + pair code review",
+              "id": 33
+            },
+            "4": {
+              "title": "More pairing",
+              "id": 34
+            },
+            "5": {
+              "title": "Mob programming",
+              "id": 35
+            },
+            "6": {
+              "title": "Pair programming",
+              "id": 36
+            },
+            "7": {
+              "title": "Funs small projects like programming a robot not necessarily work aligned, but thought it would be interesting",
+              "id": 37
+            },
+            "8": {
+              "title": "small in-session/meeting pair programming tasks",
+              "id": 38
+            },
+            "9": {
+              "title": "Involvement in open source projects",
+              "id": 39
+            },
+            "10": {
+              "title": "More group stuff",
+              "id": 40
+            },
+            "11": {
+              "title": "More katas",
+              "id": 41
+            },
+            "12": {
+              "title": "beer / pizza / kata",
+              "id": 42,
+              "ideas": {
+                "1": {
+                  "title": "Catered events",
+                  "id": 44
+                }
+              }
+            },
+            "13": {
+              "title": "More well-defined projects",
+              "id": 43,
+              "ideas": {
+                "1": {
+                  "title": "Something with blockchain? (something simple)",
+                  "id": 50
+                }
+              }
+            },
+            "14": {
+              "title": "People to bring more code",
+              "id": 56
+            }
+          }
         }
       }
     },
@@ -87,15 +157,53 @@
         },
         "2": {
           "title": "Big Data",
-          "id": 10
+          "id": 10,
+          "ideas": {
+            "1": {
+              "title": "Big data in general",
+              "id": 47
+            },
+            "2": {
+              "title": "Cassandra",
+              "id": 48
+            }
+          }
         },
         "3": {
           "title": "Quality",
-          "id": 11
+          "id": 11,
+          "ideas": {
+            "1": {
+              "title": "Code Quality",
+              "id": 45
+            },
+            "2": {
+              "title": "Best practices",
+              "id": 46
+            },
+            "3": {
+              "title": "Domain driven design",
+              "id": 49
+            }
+          }
         },
         "4": {
           "title": "Performance",
-          "id": 12
+          "id": 12,
+          "ideas": {
+            "1": {
+              "title": "Concurrency",
+              "id": 53
+            },
+            "2": {
+              "title": "Multithreading (make something with it)",
+              "id": 54
+            },
+            "3": {
+              "title": "Low latency",
+              "id": 55
+            }
+          }
         }
       }
     },
